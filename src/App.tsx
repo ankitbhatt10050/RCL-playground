@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import {
+  WavyButton,
+  BlobButton,
+  CurtainButton,
+  TwoCurtainButton,
+  SlideEffectButton,
+} from "@ankitbhatt10050/react-component-library";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <WavyButton label="Wavy Button"></WavyButton>
+      <BlobButton label="Blob Button"></BlobButton>
+      <CurtainButton label="Curtain Button"></CurtainButton>
+      <TwoCurtainButton label="Wavy Button"></TwoCurtainButton>
+      <SlideEffectButton label="Slide Button"></SlideEffectButton>
     </div>
   );
 }
