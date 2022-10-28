@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ankitbhatt10050/react-component-library": "^0.0.5",
+    "@ankitbhatt10050/react-component-library": "git+https://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:x-oauth-basic@github.com/ankitbhatt10050/react-component-library.git",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
